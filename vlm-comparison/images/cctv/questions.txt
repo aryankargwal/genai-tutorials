@@ -1,0 +1,5 @@
+1 How many cars are in my driveway?
+2 Who is standing in ym driveway?
+3 What is that commotion in the hall?
+4 Who has the computer monitor?
+5 Is ther anything wrong with this image?

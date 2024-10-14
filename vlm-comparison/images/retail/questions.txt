@@ -1,0 +1,5 @@
+1 What era do you think this clothing is from?
+2 What are the different animals on this shirt?
+3 What material is this shirt made from?
+4 Can I wash this cloth at 95F?
+5 What is it written in Japanese on this Tshirt?
