@@ -11,9 +11,11 @@ Check out the video walkthroughs of this project and more on my [YouTube channel
 
 ## 🚀 Projects in this Repository
 
-| Tutorial Name               | Description                                                                                         | Link to Tutorial            |
-|-----------------------------|-----------------------------------------------------------------------------------------------------|-----------------------------|
-| **MultiHopQA with DSPy**     | Implements multi-hop question answering using **DSPy**, **ColBERT**, **Qwen 2.5 72B**, and **HotPotQA**. | [multihopqa-dspy](./multihopqa-dspy) |
+| Tutorial Name                    | Description                                                                                                    | Link to Tutorial                 |
+|----------------------------------|----------------------------------------------------------------------------------------------------------------|----------------------------------|
+| **MultiHopQA with DSPy**          | Implements multi-hop question answering using **DSPy**, **ColBERT**, **Qwen 2.5 72B**, and **HotPotQA**.        | [multihopqa-dspy](./multihopqa-dspy) |
+| **VLM Stress Testing**            | Compares the performance of multiple **Vision-Language Models** for multi-modal inferences using **Streamlit**. | [vlm-comparison](./vlm-comparison)   |
+
 
 ---
 
@@ -25,6 +27,12 @@ This project demonstrates how to perform **MultiHop Question Answering (QA)**, a
 
 ### Future Plans
 - Additional tutorials on text generation, retrieval-augmented generation, and more will be added as part of this repository.
+
+## VLM Stress Testing with Llama 3.2, Qwen 2 VL, and GPT 4o
+This project provides a framework for evaluating Vision-Language Models (VLMs) by comparing their performance on multi-modal question-answering tasks. It allows users to upload images, input questions, and test responses across multiple state-of-the-art models like Llama 3.2, Qwen 2 VL, and GPT 4o. The application tracks key metrics like response quality, latency, and token usage to determine the best-performing model for each task.
+
+### Future Plans
+Upcoming enhancements include expanded model comparisons, fine-tuning tutorials, and automated dataset generation for advanced multi-modal tasks.
 
 ## 📜 License
 This repository is licensed under the [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0).
