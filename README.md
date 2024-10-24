@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)
 
-Welcome to the **NLP Tutorials** repository! This repository currently hosts multiple projects focusing on **Large Language Models (LLMs)** and **Natural Language Processing (NLP)** workflows, including **MultiHop Question Answering (QA)** and **Marketing Campaign Generation with AI Assistants**.
+Welcome to the **NLP Tutorials** repository! This repository currently hosts multiple projects focusing on **Large Language Models (LLMs)** and **Natural Language Processing (NLP)** workflows, including **MultiHop Question Answering (QA)**, **Marketing Campaign Generation with AI Assistants**, and **Multimodal AI with Janus**.
 
 ## 📺 Watch on YouTube
 Check out video walkthroughs of these projects and more on my [YouTube channel](https://www.youtube.com/@AryanKargwal)!
@@ -16,6 +16,7 @@ Check out video walkthroughs of these projects and more on my [YouTube channel](
 | **MultiHopQA with DSPy**          | Implements multi-hop question answering using **DSPy**, **ColBERT**, **Qwen 2.5 72B**, and **HotPotQA**.        | [multihopqa-dspy](./multihopqa-dspy) |
 | **VLM Stress Testing**            | Compares the performance of multiple **Vision-Language Models** for multi-modal inferences using **Streamlit**. | [vlm-comparison](./vlm-comparison)   |
 | **Multi-Turn Assistant** | Walks through creating a multi-turn assistant application to automate tasks like market research, strategy generation, and image creation using AI assistants. | [marketing-campaign](./multi-turn-agents) |
+| **Janus 1.3B Multimodal AI** | Provides a tutorial on deploying Janus 1.3B for multimodal tasks, including text understanding and image generation. | [janus-tutorial](./janus-tutorial) |
 
 ---
 
@@ -39,6 +40,13 @@ In this tutorial, we build a multi-turn assistant application using **Tune Studi
 
 ### Future Plans
 - Further enhancements, including advanced assistant workflows for more complex marketing and automation tasks.
+
+## Janus 1.3B Multimodal AI
+
+This tutorial guides you through deploying **Janus 1.3B**, a compact yet powerful vision-language model. You will learn how to leverage Janus for both text understanding and image generation with a straightforward implementation. The tutorial covers the architecture of Janus, including its tokenization methods, multimodal processing, and practical usage examples.
+
+### Future Plans
+- Additional insights on tuning and optimizing Janus for specific use cases and performance benchmarks.
 
 ## 📜 License
 This repository is licensed under the [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0).
