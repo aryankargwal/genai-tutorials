@@ -21,7 +21,7 @@ The project demonstrates how to combine powerful **retrieval** and **language mo
 ### 1. Clone the Repository
 Clone the repository to your local machine:
 ```bash
-git clone https://github.com/aryankargwal/nlp-tutorials.git
+git clone https://github.com/aryankargwal/genai-tutorials.git
 cd nlp-tutorials
 ```
 
