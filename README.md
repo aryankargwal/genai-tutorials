@@ -1,10 +1,14 @@
+Absolutely, my apologies for missing that! Here’s the revised main page with **Omniparser** added to the project list:
+
+---
+
 # NLP Tutorials using Large Language Models (LLMs)
 
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)  
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  
 ![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)
 
-Welcome to the **NLP Tutorials** repository! This repository currently hosts multiple projects focusing on **Large Language Models (LLMs)** and **Natural Language Processing (NLP)** workflows, including **MultiHop Question Answering (QA)**, **Marketing Campaign Generation with AI Assistants**, and **Multimodal AI with Janus**.
+Welcome to the **NLP Tutorials** repository! This repository currently hosts multiple projects focusing on **Large Language Models (LLMs)** and **Natural Language Processing (NLP)** workflows, including **MultiHop Question Answering (QA)**, **Marketing Campaign Generation with AI Assistants**, **Multimodal AI with Janus**, and **Advanced Parsing with Omniparser**.
 
 ## 📺 Watch on YouTube
 Check out video walkthroughs of these projects and more on my [YouTube channel](https://www.youtube.com/@AryanKargwal)!
@@ -17,6 +21,7 @@ Check out video walkthroughs of these projects and more on my [YouTube channel](
 | **VLM Stress Testing**            | Compares the performance of multiple **Vision-Language Models** for multi-modal inferences using **Streamlit**. | [vlm-comparison](./vlm-comparison)   |
 | **Multi-Turn Assistant** | Walks through creating a multi-turn assistant application to automate tasks like market research, strategy generation, and image creation using AI assistants. | [marketing-campaign](./multi-turn-agents) |
 | **Janus 1.3B Multimodal AI** | Provides a tutorial on deploying Janus 1.3B for multimodal tasks, including text understanding and image generation. | [janus-tutorial](./janus-tutorial) |
+| **Omniparser**                    | Demonstrates parsing and structuring complex documents for NLP workflows with **Omniparser**. | [omniparser-tutorial](./omniparser) |
 
 ---
 
@@ -47,6 +52,13 @@ This tutorial guides you through deploying **Janus 1.3B**, a compact yet powerfu
 
 ### Future Plans
 - Additional insights on tuning and optimizing Janus for specific use cases and performance benchmarks.
+
+## Omniparser for Document Parsing
+
+The **Omniparser** tutorial focuses on handling complex document parsing tasks, extracting and structuring data for NLP workflows. This project is ideal for anyone needing to process diverse document types, as it covers setup, parsing strategies, and methods to ensure clean, organized data for downstream applications.
+
+### Future Plans
+- Expansion to cover additional data extraction methods and integration with text and image processing modules.
 
 ## 📜 License
 This repository is licensed under the [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0).
