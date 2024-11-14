@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boss Llama - Interview Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-right">
+                <button class="deploy-button">Deploy</button>
+                <button class="menu-button">...</button>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <img src="https://via.placeholder.com/24x24" alt="Llama Icon" class="llama-icon">
+                <h1>Boss Llama</h1>
+            </div>
+            <p class="description">Welcome to Boss Llama, an AI bot to simulate interviews, which aids in evaluation and improving answers. Please add your Job Description, Number of Questions, Difficulty, and API Key to start the conversation.</p>
+            <div class="form-group">
+                <label for="number-of-questions">Number of Questions:</label>
+                <input type="range" id="number-of-questions" min="1" max="10" value="5" class="slider">
+            </div>
+            <div class="form-group">
+                <label for="difficulty">Difficulty:</label>
+                <select id="difficulty" class="dropdown">
+                    <option value="easy">Easy</option>
+                    <option value="medium" selected>Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="job-description">Job Description:</label>
+                <input type="text" id="job-description" placeholder="DevRel Engineer Role at an AI Startup in SF" class="text-input">
+            </div>
+            <div class="form-group">
+                <label for="api-key">Enter your API Key:</label>
+                <input type="text" id="api-key" value="*********************yKQObsd8kHWVYotwtsnH431" class="text-input">
+            </div>
+            <button class="action-button start-interview">Start Interview</button>
+            <button class="action-button download-report">Download Evaluation Report</button>
+        </aside>
+        <main class="main-area">
+            <!-- Conversation area will be here -->
+        </main>
+    </div>
+</body>
+</html>

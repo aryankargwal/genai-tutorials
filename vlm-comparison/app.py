@@ -11,7 +11,7 @@ import time
 # Set the API details for the model
 url = "https://proxy.tune.app/chat/completions"
 headers = {
-    "Authorization": "sk-tune-sG5ZeW55MiRN6jlF1iKoT2RYgfHsJ2FD29m",  # This is a Temp Key, Add your own Key
+    "Authorization": "API-KEY",  # This is a Temp Key, Add your own Key
     "Content-Type": "application/json",
 }
 
@@ -107,7 +107,7 @@ question = st.text_input("Enter your question:")
 model_options = {
     "Llama 3.2": "meta/llama-3.2-90b-vision",
     "Qwen 2 VL": "qwen/qwen-2-vl-72b",
-    "GPT 4o": "openai/gpt-4o"
+    "GPT 4o": "anthropic/claude-3.5-sonnet"
 }
 model_1 = st.selectbox("Select the first model:", list(model_options.keys()))
 model_2 = st.selectbox("Select the second model:", list(model_options.keys()))

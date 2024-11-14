@@ -1,7 +1,3 @@
-Absolutely, my apologies for missing that! Here’s the revised main page with **Omniparser** added to the project list:
-
----
-
 # NLP Tutorials using Large Language Models (LLMs)
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)  
@@ -19,9 +15,10 @@ Check out video walkthroughs of these projects and more on my [YouTube channel](
 |----------------------------------|----------------------------------------------------------------------------------------------------------------|----------------------------------|
 | **MultiHopQA with DSPy**          | Implements multi-hop question answering using **DSPy**, **ColBERT**, **Qwen 2.5 72B**, and **HotPotQA**.        | [multihopqa-dspy](./multihopqa-dspy) |
 | **VLM Stress Testing**            | Compares the performance of multiple **Vision-Language Models** for multi-modal inferences using **Streamlit**. | [vlm-comparison](./vlm-comparison)   |
-| **Multi-Turn Assistant** | Walks through creating a multi-turn assistant application to automate tasks like market research, strategy generation, and image creation using AI assistants. | [marketing-campaign](./multi-turn-agents) |
-| **Janus 1.3B Multimodal AI** | Provides a tutorial on deploying Janus 1.3B for multimodal tasks, including text understanding and image generation. | [janus-tutorial](./janus-tutorial) |
+| **Multi-Turn Assistant**          | Walks through creating a multi-turn assistant application to automate tasks like market research, strategy generation, and image creation using AI assistants. | [marketing-campaign](./multi-turn-agents) |
+| **Janus 1.3B Multimodal AI**      | Provides a tutorial on deploying Janus 1.3B for multimodal tasks, including text understanding and image generation. | [janus-tutorial](./janus-tutorial) |
 | **Omniparser**                    | Demonstrates parsing and structuring complex documents for NLP workflows with **Omniparser**. | [omniparser-tutorial](./omniparser) |
+| **Qwen 2.5 Coder**                | Transforms UI layouts into HTML/CSS using **Qwen 2.5** vision-language model for rapid prototyping and design automation. | [qwen-coder](./qwen-coder) |
 
 ---
 
@@ -59,6 +56,13 @@ The **Omniparser** tutorial focuses on handling complex document parsing tasks, 
 
 ### Future Plans
 - Expansion to cover additional data extraction methods and integration with text and image processing modules.
+
+## Qwen 2.5 Coder - UI to Code Transformation
+
+The **Qwen 2.5 Coder** tutorial demonstrates the use of **Qwen 2.5** to transform UI layouts into HTML/CSS code. It offers a streamlined solution for automating design-to-code workflows, enabling rapid prototyping and design implementation.
+
+### Future Plans
+- Additional examples with more complex UI layouts and improvements in customization for UI component parsing.
 
 ## 📜 License
 This repository is licensed under the [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0).

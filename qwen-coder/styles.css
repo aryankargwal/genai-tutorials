@@ -1,0 +1,120 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+header {
+    background-color: #111;
+    padding: 10px 20px;
+    text-align: right;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header-right button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sidebar {
+    background-color: #222;
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-header h1 {
+    margin-left: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.llama-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.description {
+    margin: 15px 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #444;
+    outline: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background: red;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dropdown, .text-input {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.action-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.action-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.main-area {
+    flex-grow: 1;
+    background-color: black;
+}
